@@ -1,0 +1,80 @@
+.container {
+    width: 250px;
+    height: 550px;
+    border: 2px solid black;
+    border-radius: 5px;
+
+}
+
+.top {
+    text-align: center;
+    border-bottom: 2px solid black;
+    background: linear-gradient(rgb(136, 245, 34), white);
+}
+
+.top_man {
+    padding-top: 20px;
+    width: 200px;
+    height: 120px;
+    object-fit: cover;
+}
+
+.top_button {
+    margin: 0 auto 20px;
+    width: 200px;
+    height: 25px;
+    background-color: rgb(91, 211, 22);
+    border-radius: 10px;
+    font-size: 14px;
+    font-weight: 1000;
+    color: white;
+    cursor: pointer;
+}
+
+
+.buttom_price {
+    display: flex;
+    margin-top: 15px;
+}
+
+.buttom_price_money {
+    width: 40px;
+}
+
+.buttom_price_number {
+    width: 30px;
+}
+
+h2 {
+    margin-left: 15px;
+    font-weight: bold;
+    font-size: 24px;
+    font-style: italic;
+    color: blueviolet;
+}
+
+p {
+    margin: 0;
+    font-size: 20px;
+    margin-left: 15px;
+    color: green;
+}
+
+ul {
+    margin-top: 2px;
+   padding-bottom: 10px;
+    font-size: 18px;
+    color: blueviolet;
+    list-style-type: disc;
+}
+
+li::marker {
+    color: rgb(240, 64, 11);
+    font-size: 1em;
+}
+button:hover {
+    background-color: rgb(238, 54, 8);
+}
+/*imageClass {
+    object-fit: cover;
+}*/
